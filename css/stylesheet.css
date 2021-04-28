@@ -25,7 +25,7 @@ main h2 {
 .profile {
     float: right;
     box-shadow: 0 0 15px black;
-    max-width: 50%;
+    max-width: 20%;
     height: auto;
 }
 footer a, footer a:link, footer a:visited, footer a:hover, footer a:active, footer a:focus {
