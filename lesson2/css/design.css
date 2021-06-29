@@ -46,21 +46,7 @@ section {
     border-radius:15px;
     text-align: center;
     margin: 0.5rem;
-    position: relative;
     padding: 0 1rem;
-    max-width: 30%;
-}
-
-@media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
-        max-width: 1200px;
-	}
-
-	section:nth-child(3) {
-		grid-column: span 1;
-        margin-top: 15px;
-	}
 }
 
 @media only screen and (min-width: 32.5em) {
@@ -84,7 +70,6 @@ section {
 
     }
     main section:nth-child(1) {
-        grid-column: span 1;
         margin-top: 15px;
     }
     main section:nth-child(2) {
@@ -96,6 +81,14 @@ section {
         height:auto;
         border: 1px solid #bbb;
     }
+}
+
+@media only screen and (min-width: 60em) {
+	main {
+		grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin : 0 auto;
+	}
 }
 /*main section h2 {
     color: black;

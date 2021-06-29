@@ -1,0 +1,50 @@
+body {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+header {
+    background-color: green;
+    color: white;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.3em;
+    background-color: green;
+    color: white;
+}
+
+h3 {
+    padding-bottom: 2px;
+}
+
+a {
+    padding-top: 2px;
+}
+
+.screenshot {
+    margin-top: 8px;
+}
+
+p{
+    font-size: 0.8em;
+    color: black;
+}
+
+section {
+    background-color: rgb(235, 233, 233);
+    border-radius:15px;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0 1rem;
+}
