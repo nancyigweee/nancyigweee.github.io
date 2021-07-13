@@ -1,0 +1,38 @@
+
+/* General rules */
+body {
+    font-size: 16px;
+    font-family: "Noto+Sans+JP";
+    margin: 0;
+}
+.town {
+    text-align: center;
+}
+/* main */
+.h1 {
+    font-family: "Roboto";
+    
+}
+.byline {
+    padding-top: 10px;
+}
+
+section {
+    /* margin: 0 auto; */
+    border: .1px solid black;
+    margin-left: 0;
+    padding: 5em;
+    text-align: center;
+    margin-bottom: 1em;
+    background-color: #1282A2;
+    color: white;
+}
+
+.sec {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.cion {
+    margin-left: 0;
+}
+
